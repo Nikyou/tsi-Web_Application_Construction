@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>My Page Title</title>
+  <meta name="description" content="My Page Description">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<h1>Upload movie information</h1>
+	<form>
+	<label for="fname">Movie name:</label> <br> <input type="text" id="fname" name="fname"><br>
+	<label for="ftitle">Original title:</label> <br> <input type="text" id="ftitle" name="ftitle"><br>
+	<label for="fcover">Movie cover:</label> <br> <input type="file" accept="image/gif, image/jpeg, image/png" id="fcover" name="fcover"><br>
+	<label for="fyear">Date:</label> <br> <input type="date" id="fyear" name="fyear"><br>
+	<label for="fagerating">Age rating:</label> <br> 
+		<input type="radio" id="G" name="fagerating" value="G"><label for="G">G</label> 
+		<input type="radio" id="PG" name="fagerating" value="PG"><label for="PG">PG</label> 
+		<input type="radio" id="PG-13" name="fagerating" value="PG-13"><label for="PG-13">PG-13</label> 
+		<input type="radio" id="R" name="fagerating" value="R"><label for="R">R</label> 
+		<input type="radio" id="NC-17" name="fagerating" value="NC-17"><label for="NC-17">NC-17</label> <br>
+	<label for="fgenres">Genres:</label> <br>
+		<input type="checkbox" id="genre1" name="genre1" value="Action"> <label for="genre1">Action</label>
+		<input type="checkbox" id="genre2" name="genre2" value="Comedy"> <label for="genre2">Comedy</label>
+		<input type="checkbox" id="genre3" name="genre3" value="Drama"> <label for="genre3">Drama</label>
+		<input type="checkbox" id="genre4" name="genre4" value="Fantasy"> <label for="genre4">Fantasy</label>
+		<input type="checkbox" id="genre5" name="genre5" value="Horror"> <label for="genre5">Horror</label>
+		<input type="checkbox" id="genre6" name="genre6" value="Mystery"> <label for="genre6">Mystery</label>
+		<input type="checkbox" id="genre7" name="genre7" value="Romance"> <label for="genre7">Romance</label>
+		<input type="checkbox" id="genre8" name="genre8" value="Thriller"> <label for="genre8">Thriller</label>
+		<input type="checkbox" id="genre9" name="genre9" value="Western"> <label for="genre9">Western</label><br>
+	<label for="fdescription">Description:</label> <br> <input type="text" id="fdescription" name="fdescription"><br>
+	<label for="frating">Rating:</label> <br> <input type="range" min="1" max="10" step="1" value="5" class="slider" id="frating"><br>
+	<label for="fdirector">Director:</label> <br> <input type="text" id="fdirector" name="fdirector"><br>
+	<label for="fwriters">Writers:</label> <br> <input type="text" id="fwriters" name="fwriters"><br>
+	
+	</form>
+</body></html>
